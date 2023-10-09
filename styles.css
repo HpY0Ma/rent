@@ -1,0 +1,48 @@
+.rent {
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+    height: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+
+
+
+}
+
+body {
+    min-height: 100vh
+}
+
+h1 {
+    margin: 0;
+}
+
+.title {
+    color: yellow;
+}
+
+.rent-terms__item {}
+
+.rent-terms {
+    align-items: center;
+    row-gap: 80px;
+}
+
+.rent-terms__img {
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+@media (min-width: 1024px) {
+    .rent {
+        background-color: black;
+    }
+}
+
+@media (min-width: 425px) {
+    .rent-terms__img {
+        display: none;
+    }
+}
